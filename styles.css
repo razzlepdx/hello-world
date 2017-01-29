@@ -1,19 +1,58 @@
+#About {
+  width: 95%;
+  padding: 10%;
+  margin: 2%;
+  background: lightblue;
+  border: 2px solid black;
+  border-radius:8%;
+  display: inline-block;
+}
+
 h1 {
   font-family: serif;
+  padding: 20px;
+  margin: auto;
+}
+
+p{
+  margin: auto;
+}
+
+.project img {
+  width: 25%;
+  height: 250px;
+  border: 1px black solid;
+  display: inline-block;
+  float: left;
+}
+
+.project p {
+  width: 25%;
+  border: 1px black solid;
+  display: inline-block;
+  padding: 1%;
+  margin: 2%;
+}
+.project {
+  background: lightgray;
+  display: inline-block;
+  float: left;
+  padding: 1%;
+  margin: 2%;
+}
+
+li {
+list-style-position: inside;
+}
+
+#Contact{
+  background: lightgrey;
+  border: 1px solid black;
+  padding: 5%;
+  margin: 2%;
 }
 #icons img {
   border-radius:50%;
   height: 20px;
   width: 20px
-}
-#Icons #Projects #About #Skills {
-  margin: auto;
-}
-
-body{
-  text-align: center;
-}
-
-li {
-list-style-position: inside;
 }

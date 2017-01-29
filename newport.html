@@ -1,36 +1,63 @@
-<doctype! HTML>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Maitree|Suranna" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link href="C:\Users\razzle97\Desktop\FCCProjects\NewPort\styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="Menu">
-      <!-- create responsive navbar here - should be present on the left side of the page in all views except mobile, when it collapses to a hamburger menu -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">R. Wilson</a>
+        </div>
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="newport.html#About">About Me</a></li>
+      <li><a href="newport.html#Projects">Projects</a></li>
+      <li><a href="newport.html#Skills">Professional Skills</a></li>
+      <li><a href="newport.html#Contact">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
 
-      <p>R. Wilson</p>
-      <ul>
-        <li><a href="newport.html#About">About Me</a></li>
-        <li><a href="newport.html#Projects">Sample Projects</a></li>
-        <li><a href="newport.html#Skills">Skills</a></li>
-        <li><a href="newport.html#Contact">Contact Me</a></li>
-      </ul>
-
-    </div>
     <div id="About">
       <img src="http://lorempixel.com/output/people-q-c-640-480-6.jpg">
       <h1>About Me</h1>
       <p>I'm a fairy princess that wants to make a beautiful website for you!
         My focus is on helping small businesses and non-profits.</p>
     </div>
-    <div id="Projects">
+
+    <div id="Projects" class="container-fluid">
       <!--Projects will be in a single row, split into 3 columns.  Need to think about/design
       specialty bullets for these three categories -->
       <h1> Here are some of my magical projects</h1>
       <div class="project">
         <div class="row">
-            <p>1project</p>
+            <img src="project1.jpg">
+            <h2>Project 1</h2>
+            <p>Aliquam laoreet lacinia libero, vitae sollicitudin dolor sodales at. Fusce id mi
+              euismod ex faucibus tempus a nec lacus. Proin eget tincidunt justo. Fusce ac enim sit
+              amet mi viverra sollicitudin. Ut nec posuere leo. Etiam vehicula ipsum a elit gravida
+              placerat. Proin accumsan metus et pulvinar congue. Donec varius mi vel elit ullamcorper,
+              eget efficitur urna eleifend. Donec vehicula dignissim ligula vitae laoreet. Duis dapibus
+              dictum maximus.</p>
+              <img src="project1.jpg">
+              <h2>Project 2</h2>
+              <p>Aliquam laoreet lacinia libero, vitae sollicitudin dolor sodales at. Fusce id mi
+              euismod ex faucibus tempus a nec lacus. Proin eget tincidunt justo. Fusce ac enim sit
+              amet mi viverra sollicitudin. Ut nec posuere leo. Etiam vehicula ipsum a elit gravida
+              placerat. Proin accumsan metus et pulvinar congue. Donec varius mi vel elit ullamcorper,
+              eget efficitur urna eleifend. Donec vehicula dignissim ligula vitae laoreet. Duis dapibus
+              dictum maximus.</p>
+              <img src="project1.jpg">
+              <h2>Project 3</h2>
+              <p>Aliquam laoreet lacinia libero, vitae sollicitudin dolor sodales at. Fusce id mi
+              euismod ex faucibus tempus a nec lacus. Proin eget tincidunt justo. Fusce ac enim sit
+              amet mi viverra sollicitudin. Ut nec posuere leo. Etiam vehicula ipsum a elit gravida
+              placerat. Proin accumsan metus et pulvinar congue. Donec varius mi vel elit ullamcorper,
+              eget efficitur urna eleifend. Donec vehicula dignissim ligula vitae laoreet. Duis dapibus
+              dictum maximus.</p>cc
       </div>
     </div>
     <div id="Skills">
@@ -59,7 +86,7 @@
           <li>ice cream</li>
         </ul>
     </div>
-    <div id="Contact">
+    <div id="Contact" class="container-fluid">
       <!--text should be centered and take up about 1/3 of the screen on a desktop.s
        social media links will be in a single row.  Email icon will be larger and one
        row below the social media icons -->
