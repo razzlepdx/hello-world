@@ -1,5 +1,5 @@
 #About {
-  width: 95%;
+  width: 80%;
   padding: 10%;
   margin: 2%;
   background: lightblue;
@@ -39,6 +39,15 @@ p{
   float: left;
   padding: 1%;
   margin: 2%;
+}
+
+#Skills{
+  padding: 15%;
+  margin: 5%;
+  width: 95%;
+  background: lightblue;
+  border: 2px solid black;
+  border-radius: 15%
 }
 
 li {
