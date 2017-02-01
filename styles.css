@@ -1,23 +1,40 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  z-index: 1;
+  font-family: "Maitree", serif;
+}
+
 #About {
   width: 80%;
   padding: 10%;
   margin: 2%;
   background: lightblue;
   border: 2px solid black;
-  border-radius:8%;
+  border-radius:15%;
   display: inline-block;
 }
 
 h1 {
-  font-family: serif;
+  font-family: "Maitree", serif;
   padding: 20px;
   margin: auto;
 }
 
-p{
+h2{
+  font-family: "Suranna", serif;
+}
+p, li{
   margin: auto;
+  font-family: "Suranna", serif;
+  font-size: 125%;
 }
 
+ul {
+  list-style: square inside none;
+}
 .project img {
   width: 25%;
   height: 250px;
@@ -42,12 +59,12 @@ p{
 }
 
 #Skills{
-  padding: 15%;
+  padding: 5% 15% 5% 15%;
   margin: 5%;
   width: 95%;
   background: lightblue;
   border: 2px solid black;
-  border-radius: 15%
+  border-radius: 5%
 }
 
 li {
